@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40C59A11DECA5E500B5B57D /* UseFavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C59A01DECA5E500B5B57D /* UseFavoriteTableViewController.swift */; };
+		A41E8E911DD6371A0088DBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E8E901DD6371A0088DBFE /* AppDelegate.swift */; };
+		A41E8E931DD6371A0088DBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E8E921DD6371A0088DBFE /* ViewController.swift */; };
+		A41E8E991DD6371A0088DBFE /* TripCast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A41E8E971DD6371A0088DBFE /* TripCast.xcdatamodeld */; };
+		A41E8E9E1DD6371A0088DBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41E8E9C1DD6371A0088DBFE /* LaunchScreen.storyboard */; };
+		A41E8EA91DD6371A0088DBFE /* TripCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E8EA81DD6371A0088DBFE /* TripCastTests.swift */; };
+		A41E8EB61DD638BE0088DBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41E8EB51DD638BE0088DBFE /* Assets.xcassets */; };
+		A420FF1C1DDA98D700CD6746 /* TripCastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420FF1B1DDA98D700CD6746 /* TripCastModel.swift */; };
+		A420FF201DDAC6DC00CD6746 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420FF1F1DDAC6DC00CD6746 /* LocationSearchTable.swift */; };
+		A420FF221DDAC82200CD6746 /* NewFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420FF211DDAC82200CD6746 /* NewFavoriteViewController.swift */; };
+		A436833A1DEFB160000636A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43683391DEFB160000636A4 /* Constants.swift */; };
+		A44E38931DD79B7C0027B5D6 /* HalfPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E38921DD79B7C0027B5D6 /* HalfPresentationController.swift */; };
+		A44E38951DD79C790027B5D6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E38941DD79C790027B5D6 /* SettingsViewController.swift */; };
+		A44E38971DD7A2D20027B5D6 /* RouteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E38961DD7A2D20027B5D6 /* RouteDetailViewController.swift */; };
+		A460FC601DDA41BA003F89C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A460FC5F1DDA41BA003F89C7 /* MapKit.framework */; };
+		A46759BD1DDFE4C2006B3372 /* TripSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46759BC1DDFE4C2006B3372 /* TripSummaryViewController.swift */; };
+		A4858ACC1DEF6E6200E8C112 /* GCD+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4858ACB1DEF6E6200E8C112 /* GCD+Convenience.swift */; };
+		A48964061DDDF53F00266D3F /* OriginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48964051DDDF53F00266D3F /* OriginViewController.swift */; };
+		A495AE241DDB6DEC00AA8E94 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495AE231DDB6DEC00AA8E94 /* FavoritesTableViewController.swift */; };
+		A4A528211DDBED0200BB5243 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A528201DDBED0200BB5243 /* DataManager.swift */; };
+		A4A528231DDBEDBB00BB5243 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A528221DDBEDBB00BB5243 /* CoreDataModel.swift */; };
+		A4A5282A1DDBF53800BB5243 /* FavoriteMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A528281DDBF53800BB5243 /* FavoriteMO+CoreDataProperties.swift */; };
+		A4A5282B1DDBF53800BB5243 /* FavoriteMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A528291DDBF53800BB5243 /* FavoriteMO.swift */; };
+		A4AAC6971DF686120078D9F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AAC6961DF686120078D9F2 /* Main.storyboard */; };
+		A4AF59591DF528A900D8EC99 /* WaypointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF59581DF528A900D8EC99 /* WaypointTableViewCell.swift */; };
+		A4D4A78F1DF0AEA3006719D3 /* WaypointDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A78E1DF0AEA3006719D3 /* WaypointDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A41E8EA51DD6371A0088DBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A41E8E851DD6371A0088DBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A41E8E8C1DD6371A0088DBFE;
+			remoteInfo = TripCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A40C59A01DECA5E500B5B57D /* UseFavoriteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseFavoriteTableViewController.swift; sourceTree = "<group>"; };
+		A41E8E8D1DD6371A0088DBFE /* TripCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41E8E901DD6371A0088DBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A41E8E921DD6371A0088DBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A41E8E981DD6371A0088DBFE /* TripCast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripCast.xcdatamodel; sourceTree = "<group>"; };
+		A41E8E9D1DD6371A0088DBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A41E8E9F1DD6371A0088DBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41E8EA41DD6371A0088DBFE /* TripCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41E8EA81DD6371A0088DBFE /* TripCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCastTests.swift; sourceTree = "<group>"; };
+		A41E8EAA1DD6371A0088DBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41E8EB51DD638BE0088DBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A420FF1B1DDA98D700CD6746 /* TripCastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripCastModel.swift; path = ../TripCastModel.swift; sourceTree = "<group>"; };
+		A420FF1F1DDAC6DC00CD6746 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = ../LocationSearchTable.swift; sourceTree = "<group>"; };
+		A420FF211DDAC82200CD6746 /* NewFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFavoriteViewController.swift; sourceTree = "<group>"; };
+		A43683391DEFB160000636A4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
+		A44E38921DD79B7C0027B5D6 /* HalfPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfPresentationController.swift; sourceTree = "<group>"; };
+		A44E38941DD79C790027B5D6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A44E38961DD7A2D20027B5D6 /* RouteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailViewController.swift; sourceTree = "<group>"; };
+		A460FC5F1DDA41BA003F89C7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A46759BC1DDFE4C2006B3372 /* TripSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripSummaryViewController.swift; sourceTree = "<group>"; };
+		A4858ACB1DEF6E6200E8C112 /* GCD+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCD+Convenience.swift"; sourceTree = "<group>"; };
+		A48964051DDDF53F00266D3F /* OriginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginViewController.swift; sourceTree = "<group>"; };
+		A495AE231DDB6DEC00AA8E94 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		A4A528201DDBED0200BB5243 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A4A528221DDBEDBB00BB5243 /* CoreDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		A4A528281DDBF53800BB5243 /* FavoriteMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoriteMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4A528291DDBF53800BB5243 /* FavoriteMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteMO.swift; sourceTree = "<group>"; };
+		A4AAC6961DF686120078D9F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A4AF59581DF528A900D8EC99 /* WaypointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointTableViewCell.swift; sourceTree = "<group>"; };
+		A4D4A78E1DF0AEA3006719D3 /* WaypointDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaypointDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A41E8E8A1DD6371A0088DBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A460FC601DDA41BA003F89C7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41E8EA11DD6371A0088DBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41E8E841DD6371A0088DBFE = {
+			isa = PBXGroup;
+			children = (
+				A460FC5F1DDA41BA003F89C7 /* MapKit.framework */,
+				A41E8E8F1DD6371A0088DBFE /* TripCast */,
+				A41E8EA71DD6371A0088DBFE /* TripCastTests */,
+				A41E8E8E1DD6371A0088DBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A41E8E8E1DD6371A0088DBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A41E8E8D1DD6371A0088DBFE /* TripCast.app */,
+				A41E8EA41DD6371A0088DBFE /* TripCastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A41E8E8F1DD6371A0088DBFE /* TripCast */ = {
+			isa = PBXGroup;
+			children = (
+				A43683391DEFB160000636A4 /* Constants.swift */,
+				A41E8E901DD6371A0088DBFE /* AppDelegate.swift */,
+				A4858ACB1DEF6E6200E8C112 /* GCD+Convenience.swift */,
+				A495AE261DDB6E1300AA8E94 /* Model/CoreData */,
+				A495AE251DDB6DF700AA8E94 /* Controllers */,
+				A41E8E9C1DD6371A0088DBFE /* LaunchScreen.storyboard */,
+				A4AAC6961DF686120078D9F2 /* Main.storyboard */,
+				A41E8EB51DD638BE0088DBFE /* Assets.xcassets */,
+				A41E8E9F1DD6371A0088DBFE /* Info.plist */,
+			);
+			path = TripCast;
+			sourceTree = "<group>";
+		};
+		A41E8EA71DD6371A0088DBFE /* TripCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				A41E8EA81DD6371A0088DBFE /* TripCastTests.swift */,
+				A41E8EAA1DD6371A0088DBFE /* Info.plist */,
+			);
+			path = TripCastTests;
+			sourceTree = "<group>";
+		};
+		A495AE251DDB6DF700AA8E94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF59581DF528A900D8EC99 /* WaypointTableViewCell.swift */,
+				A4D4A78E1DF0AEA3006719D3 /* WaypointDetailViewController.swift */,
+				A40C59A01DECA5E500B5B57D /* UseFavoriteTableViewController.swift */,
+				A46759BC1DDFE4C2006B3372 /* TripSummaryViewController.swift */,
+				A420FF1F1DDAC6DC00CD6746 /* LocationSearchTable.swift */,
+				A41E8E921DD6371A0088DBFE /* ViewController.swift */,
+				A44E38941DD79C790027B5D6 /* SettingsViewController.swift */,
+				A495AE231DDB6DEC00AA8E94 /* FavoritesTableViewController.swift */,
+				A420FF211DDAC82200CD6746 /* NewFavoriteViewController.swift */,
+				A44E38961DD7A2D20027B5D6 /* RouteDetailViewController.swift */,
+				A48964051DDDF53F00266D3F /* OriginViewController.swift */,
+				A44E38921DD79B7C0027B5D6 /* HalfPresentationController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A495AE261DDB6E1300AA8E94 /* Model/CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A420FF1B1DDA98D700CD6746 /* TripCastModel.swift */,
+				A41E8E971DD6371A0088DBFE /* TripCast.xcdatamodeld */,
+				A4A528281DDBF53800BB5243 /* FavoriteMO+CoreDataProperties.swift */,
+				A4A528291DDBF53800BB5243 /* FavoriteMO.swift */,
+				A4A528201DDBED0200BB5243 /* DataManager.swift */,
+				A4A528221DDBEDBB00BB5243 /* CoreDataModel.swift */,
+			);
+			name = Model/CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A41E8E8C1DD6371A0088DBFE /* TripCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41E8EAD1DD6371A0088DBFE /* Build configuration list for PBXNativeTarget "TripCast" */;
+			buildPhases = (
+				A41E8E891DD6371A0088DBFE /* Sources */,
+				A41E8E8A1DD6371A0088DBFE /* Frameworks */,
+				A41E8E8B1DD6371A0088DBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripCast;
+			productName = TripCast;
+			productReference = A41E8E8D1DD6371A0088DBFE /* TripCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A41E8EA31DD6371A0088DBFE /* TripCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41E8EB01DD6371A0088DBFE /* Build configuration list for PBXNativeTarget "TripCastTests" */;
+			buildPhases = (
+				A41E8EA01DD6371A0088DBFE /* Sources */,
+				A41E8EA11DD6371A0088DBFE /* Frameworks */,
+				A41E8EA21DD6371A0088DBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A41E8EA61DD6371A0088DBFE /* PBXTargetDependency */,
+			);
+			name = TripCastTests;
+			productName = TripCastTests;
+			productReference = A41E8EA41DD6371A0088DBFE /* TripCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A41E8E851DD6371A0088DBFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrew Sail";
+				TargetAttributes = {
+					A41E8E8C1DD6371A0088DBFE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EQ3AK2KNFA;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A41E8EA31DD6371A0088DBFE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EQ3AK2KNFA;
+						TestTargetID = A41E8E8C1DD6371A0088DBFE;
+					};
+				};
+			};
+			buildConfigurationList = A41E8E881DD6371A0088DBFE /* Build configuration list for PBXProject "TripCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A41E8E841DD6371A0088DBFE;
+			productRefGroup = A41E8E8E1DD6371A0088DBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A41E8E8C1DD6371A0088DBFE /* TripCast */,
+				A41E8EA31DD6371A0088DBFE /* TripCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A41E8E8B1DD6371A0088DBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AAC6971DF686120078D9F2 /* Main.storyboard in Resources */,
+				A41E8EB61DD638BE0088DBFE /* Assets.xcassets in Resources */,
+				A41E8E9E1DD6371A0088DBFE /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41E8EA21DD6371A0088DBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A41E8E891DD6371A0088DBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46759BD1DDFE4C2006B3372 /* TripSummaryViewController.swift in Sources */,
+				A44E38931DD79B7C0027B5D6 /* HalfPresentationController.swift in Sources */,
+				A4A5282A1DDBF53800BB5243 /* FavoriteMO+CoreDataProperties.swift in Sources */,
+				A40C59A11DECA5E500B5B57D /* UseFavoriteTableViewController.swift in Sources */,
+				A4D4A78F1DF0AEA3006719D3 /* WaypointDetailViewController.swift in Sources */,
+				A4858ACC1DEF6E6200E8C112 /* GCD+Convenience.swift in Sources */,
+				A4A528211DDBED0200BB5243 /* DataManager.swift in Sources */,
+				A495AE241DDB6DEC00AA8E94 /* FavoritesTableViewController.swift in Sources */,
+				A44E38971DD7A2D20027B5D6 /* RouteDetailViewController.swift in Sources */,
+				A4A528231DDBEDBB00BB5243 /* CoreDataModel.swift in Sources */,
+				A41E8E991DD6371A0088DBFE /* TripCast.xcdatamodeld in Sources */,
+				A420FF201DDAC6DC00CD6746 /* LocationSearchTable.swift in Sources */,
+				A41E8E931DD6371A0088DBFE /* ViewController.swift in Sources */,
+				A4A5282B1DDBF53800BB5243 /* FavoriteMO.swift in Sources */,
+				A44E38951DD79C790027B5D6 /* SettingsViewController.swift in Sources */,
+				A4AF59591DF528A900D8EC99 /* WaypointTableViewCell.swift in Sources */,
+				A436833A1DEFB160000636A4 /* Constants.swift in Sources */,
+				A48964061DDDF53F00266D3F /* OriginViewController.swift in Sources */,
+				A41E8E911DD6371A0088DBFE /* AppDelegate.swift in Sources */,
+				A420FF1C1DDA98D700CD6746 /* TripCastModel.swift in Sources */,
+				A420FF221DDAC82200CD6746 /* NewFavoriteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41E8EA01DD6371A0088DBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41E8EA91DD6371A0088DBFE /* TripCastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A41E8EA61DD6371A0088DBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A41E8E8C1DD6371A0088DBFE /* TripCast */;
+			targetProxy = A41E8EA51DD6371A0088DBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A41E8E9C1DD6371A0088DBFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41E8E9D1DD6371A0088DBFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41E8EAB1DD6371A0088DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A41E8EAC1DD6371A0088DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A41E8EAE1DD6371A0088DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripCast",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TripCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.ads5602.TripCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A41E8EAF1DD6371A0088DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripCast",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TripCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.ads5602.TripCast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A41E8EB11DD6371A0088DBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.ads5602.TripCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripCast.app/TripCast";
+			};
+			name = Debug;
+		};
+		A41E8EB21DD6371A0088DBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.ads5602.TripCastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripCast.app/TripCast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41E8E881DD6371A0088DBFE /* Build configuration list for PBXProject "TripCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41E8EAB1DD6371A0088DBFE /* Debug */,
+				A41E8EAC1DD6371A0088DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41E8EAD1DD6371A0088DBFE /* Build configuration list for PBXNativeTarget "TripCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41E8EAE1DD6371A0088DBFE /* Debug */,
+				A41E8EAF1DD6371A0088DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41E8EB01DD6371A0088DBFE /* Build configuration list for PBXNativeTarget "TripCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41E8EB11DD6371A0088DBFE /* Debug */,
+				A41E8EB21DD6371A0088DBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A41E8E971DD6371A0088DBFE /* TripCast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A41E8E981DD6371A0088DBFE /* TripCast.xcdatamodel */,
+			);
+			currentVersion = A41E8E981DD6371A0088DBFE /* TripCast.xcdatamodel */;
+			path = TripCast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A41E8E851DD6371A0088DBFE /* Project object */;
+}
